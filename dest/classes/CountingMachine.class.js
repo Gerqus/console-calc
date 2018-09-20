@@ -15,7 +15,7 @@ var CountingMachine = /** @class */ (function () {
         return this.firstNumber * this.secondNumber;
     };
     CountingMachine.prototype.divide = function () {
-        if (this.firstNumber === 0)
+        if (this.secondNumber === 0)
             throw new Error("can't divide by 0");
         return parseFloat((this.firstNumber / this.secondNumber).toFixed(this.divisionPrecision));
     };
