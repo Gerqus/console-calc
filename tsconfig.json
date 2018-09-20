@@ -1,0 +1,8 @@
+{
+    "compilerOptions": {
+        "lib": [
+            "es5", "es6", "es2017.object", "es2016.array.include"
+        ],
+        "outDir": "dest"
+    }
+}
