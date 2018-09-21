@@ -1,6 +1,6 @@
 import { stdin } from "process";
 
-export class Communication {
+export class Terminal {
     private isListeningStdin = false;
 
     constructor() {
